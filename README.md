@@ -19,11 +19,11 @@ To achieve these objectives, the following features and functionalities will be 
 
 ### Level 1 - APIs - Personal Project (2 weeks)
 
-1. **Authentication APIs**: By integrating OAuth 2.0, Google Sign-In API, or Facebook Login API, we will ensure secure user login and registration, protecting user data and enhancing trust in the platform.
+1. **Authentication APIs**: By integrating OAuth 2.0, will ensure secure user login and registration, protecting user data and enhancing trust in the platform. (https://oauth.net/2/)
 
-2. **Weather APIs**: Integrating OpenWeatherMap API or Weatherbit API will provide users with real-time weather information for outdoor volunteering events, allowing volunteers to be prepared for any weather conditions.
+2. **Weather APIs**: Integrating OpenWeatherMap API will provide users with real-time weather information for outdoor volunteering events, allowing volunteers to be prepared for any weather conditions. (https://openweathermap.org/api)
 
-3. **Email APIs**: To streamline communication, we will incorporate SendGrid API, Mailchimp API, or Mailgun API. This will enable the platform to send confirmation and reminder emails to users, keeping them informed and engaged.
+3. **Email APIs**: To streamline communication, will incorporate SendGrid API. This will enable the platform to send confirmation and reminder emails to users, keeping them informed and engaged. (https://sendgrid.com/docs/api-reference/)
 
 ## Development Timeline
 

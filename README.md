@@ -1,7 +1,7 @@
 # VolunteerPlanner
 Website to help charities ensure they have enough volunteers for an event.
 
-LEVEL 1 
+LEVEL 1 - APIs
 --------
 
 Authentication APIs: To ensure secure user login and registration, you can use OAuth 2.0, Google Sign-In API, or Facebook Login API.
@@ -10,20 +10,6 @@ Weather APIs: To provide users with weather information for outdoor volunteering
 
 Email APIs: To send confirmation and reminder emails to users, you can use SendGrid API, Mailchimp API, or Mailgun API.
 
-LEVEL 2 
---------
-
-Geolocation APIs: These APIs will allow users to find nearby charities and events. Google Maps API and OpenStreetMap API are two popular choices.
-
-Payment APIs: If your website requires users to make a donation as part of the reservation, you can use Stripe API or PayPal API for secure transactions.
-
-Charity APIs: Some APIs provide access to databases of verified charitable organizations, such as Charity Navigator API or GlobalGiving API. These can be useful for users to explore and choose organizations to volunteer with.
-
-Calendar APIs: Integrating a calendar API will help users easily schedule their volunteer time. Some popular options include Google Calendar API and Microsoft Outlook Calendar API.
-
-# VolunteerPlanner
-
-Website to help charities ensure they have enough volunteers for an event.
 
 ## Executive Summary
 
@@ -63,3 +49,14 @@ The development timeline for VolunteerPlanner is as follows:
 ## Conclusion
 
 VolunteerPlanner will revolutionize the way charities and non-profit organizations manage their volunteer resources. By offering a comprehensive, secure, and user-friendly platform, we will enable organizations to focus on their mission while ensuring they have the volunteer support they need. We are excited to embark on this journey and create a platform that will have a positive impact on communities and the lives of volunteers.
+
+LEVEL 2 - APIs
+--------
+
+Geolocation APIs: These APIs will allow users to find nearby charities and events. Google Maps API and OpenStreetMap API are two popular choices.
+
+Payment APIs: If your website requires users to make a donation as part of the reservation, you can use Stripe API or PayPal API for secure transactions.
+
+Charity APIs: Some APIs provide access to databases of verified charitable organizations, such as Charity Navigator API or GlobalGiving API. These can be useful for users to explore and choose organizations to volunteer with.
+
+Calendar APIs: Integrating a calendar API will help users easily schedule their volunteer time. Some popular options include Google Calendar API and Microsoft Outlook Calendar API.

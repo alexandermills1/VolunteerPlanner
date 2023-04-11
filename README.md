@@ -17,7 +17,7 @@ The primary objectives of the VolunteerPlanner website are to:
 
 To achieve these objectives, the following features and functionalities will be integrated into the VolunteerPlanner website:
 
-### Level 1 - APIs
+### Level 1 - APIs - Personal Project (2 weeks)
 
 1. **Authentication APIs**: By integrating OAuth 2.0, Google Sign-In API, or Facebook Login API, we will ensure secure user login and registration, protecting user data and enhancing trust in the platform.
 
@@ -29,13 +29,14 @@ To achieve these objectives, the following features and functionalities will be 
 
 The development timeline for VolunteerPlanner is as follows:
 
-1. **Will follow class assigned dates (2 weeks)** - more notes...
+1. **Level 1 (Week 1 - 2)** - Will follow class assigned dates
+2. **Level 2 (Week 3-8)** - :)
 
 ## Conclusion
 
 VolunteerPlanner will revolutionize the way charities and non-profit organizations manage their volunteer resources. By offering a comprehensive, secure, and user-friendly platform, we will enable organizations to focus on their mission while ensuring they have the volunteer support they need. We are excited to embark on this journey and create a platform that will have a positive impact on communities and the lives of volunteers.
 
-LEVEL 2 - APIs
+LEVEL 2 - APIs - Stretch Goals (6-8 weeks)
 --------
 
 Geolocation APIs: These APIs will allow users to find nearby charities and events. Google Maps API and OpenStreetMap API are two popular choices.

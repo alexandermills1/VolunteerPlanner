@@ -12,6 +12,8 @@ The primary objectives of the VolunteerPlanner website are to:
 2. Enhance communication between event organizers and volunteers.
 3. Provide essential information, such as weather forecasts, to help volunteers plan accordingly.
 4. Ensure a secure user experience with reliable authentication methods.
+5. Allow user to add guests (family members)
+6. Will allow for waitlist if the event reaches capacity, in case someone cant make it.
 
 ## Features and Functionalities
 

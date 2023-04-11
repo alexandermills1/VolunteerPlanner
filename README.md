@@ -29,11 +29,7 @@ To achieve these objectives, the following features and functionalities will be 
 
 The development timeline for VolunteerPlanner is as follows:
 
-1. **Phase 1: Planning and Research (1-2 weeks)** - Identifying and evaluating suitable APIs, design requirements, and overall website structure.
-2. **Phase 2: Design and Prototyping (2-3 weeks)** - Creating wireframes, mockups, and interactive prototypes to visualize and refine the user interface.
-3. **Phase 3: Development (6-8 weeks)** - Implementing the features and functionalities using the chosen APIs and web development frameworks.
-4. **Phase 4: Testing and Quality Assurance (2-3 weeks)** - Conducting thorough testing to identify and resolve any technical issues, ensuring a seamless user experience.
-5. **Phase 5: Deployment and Launch (1 week)** - Deploying the website to a reliable hosting provider and preparing marketing materials for launch.
+1. **Will follow class assigned dates (2 weeks)** - more notes...
 
 ## Conclusion
 

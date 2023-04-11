@@ -46,3 +46,6 @@ Payment APIs: If your website requires users to make a donation as part of the r
 Charity APIs: Some APIs provide access to databases of verified charitable organizations, such as Charity Navigator API or GlobalGiving API. These can be useful for users to explore and choose organizations to volunteer with.
 
 Calendar APIs: Integrating a calendar API will help users easily schedule their volunteer time. Some popular options include Google Calendar API and Microsoft Outlook Calendar API.
+
+
+https://docs.google.com/spreadsheets/d/1OvTtEpKbfNiX11MQEsaJE1q3DQ4cisDO9hiDvIu8K-Q/edit#gid=0

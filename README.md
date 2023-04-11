@@ -1,15 +1,4 @@
 # VolunteerPlanner
-Website to help charities ensure they have enough volunteers for an event.
-
-LEVEL 1 - APIs
---------
-
-Authentication APIs: To ensure secure user login and registration, you can use OAuth 2.0, Google Sign-In API, or Facebook Login API.
-
-Weather APIs: To provide users with weather information for outdoor volunteering events, consider integrating OpenWeatherMap API or Weatherbit API.
-
-Email APIs: To send confirmation and reminder emails to users, you can use SendGrid API, Mailchimp API, or Mailgun API.
-
 
 ## Executive Summary
 
@@ -28,7 +17,7 @@ The primary objectives of the VolunteerPlanner website are to:
 
 To achieve these objectives, the following features and functionalities will be integrated into the VolunteerPlanner website:
 
-### Level 1
+### Level 1 - APIs
 
 1. **Authentication APIs**: By integrating OAuth 2.0, Google Sign-In API, or Facebook Login API, we will ensure secure user login and registration, protecting user data and enhancing trust in the platform.
 

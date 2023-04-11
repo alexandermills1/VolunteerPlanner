@@ -30,7 +30,7 @@ To achieve these objectives, the following features and functionalities will be 
 The development timeline for VolunteerPlanner is as follows:
 
 1. **Level 1 (Week 1 - 2)** - Will follow class assigned dates
-2. **Level 2 (Week 3-8)** - :)
+2. **Level 2 (Week 3-8)** - Stretch Goals :)
 
 ## Conclusion
 

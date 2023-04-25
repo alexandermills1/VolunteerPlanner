@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'VP_django_app',
+    'user_app',
+    'volunteer_app',
+    'weather_info',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +56,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'VP_project.urls'
 
@@ -82,7 +85,7 @@ WSGI_APPLICATION = 'VP_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'VP_django_app_db',
+        'NAME': 'vp_db',
     }
 }
 
@@ -131,4 +134,4 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'VP_django_app.App_User'
+AUTH_USER_MODEL = 'user_app.App_User'

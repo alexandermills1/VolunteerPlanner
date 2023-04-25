@@ -1,4 +1,4 @@
-// VP-react/src/main.jsx
+// /Users/alexandermills/Documents/personal_projects/VolunteerPlanner/VP-react/src/main.jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom';

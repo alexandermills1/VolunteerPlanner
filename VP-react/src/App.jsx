@@ -74,14 +74,13 @@ function App() {
   return (
     <div className="App">
       {/* <button onClick={handleLogout}>LOG OUT</button> */}
-      <h1>HELLO {user && user.name}</h1>
-
       <UserContext.Provider value={{ user, setUser }}>
         <NavBar />
+        <h1>HELLO {user && user.name}</h1>
         <Outlet />
       </UserContext.Provider>
 
-      <footer>© Alex Mills1</footer>
+      <footer>made by - Alex Mills</footer>
     </div>
   );
 }

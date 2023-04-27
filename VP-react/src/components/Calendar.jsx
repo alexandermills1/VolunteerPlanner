@@ -15,11 +15,12 @@ export function CalendarComponent() {
 
   return (
     <div className='app'>
-      <h1 className='text-center'>React Calendar</h1>
+      {/* <h1 className='text-center'>React Calendar</h1> */}
       <div className='calendar-container'>
         <ReactCalendar onClickDay={handleDateClick} />
       </div>
     </div>
   );
 }
+
 

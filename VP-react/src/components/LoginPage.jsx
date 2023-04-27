@@ -3,6 +3,9 @@ import { useContext, useState } from "react";
 import { logIn } from "../utilities";
 import { UserContext } from "../App";
 import { useNavigate } from "react-router-dom";
+import "./Button.css";
+import "./Input.css";
+
 
 export const LogIn = () => {
   const [email, setEmail] = useState("");
@@ -29,14 +32,16 @@ export const LogIn = () => {
         placeholder="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        className="input-field"
       />
       <input
         placeholder="password"
         type="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
+        className="input-field"
       />
-      <input type="submit" value="Log In" />
+      <input type="submit" value="Submit" className="nav-button"/>
     </form>
   );
 };

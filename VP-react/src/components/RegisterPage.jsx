@@ -2,6 +2,8 @@
 // import { useEffect, useState } from "react";
 import { useState } from "react";
 import { signUp } from "../utilities";
+import "./Button.css";
+import "./Input.css";
 
 export const Register = () => {
   const [firstName, setFirstName] = useState("");
@@ -25,27 +27,31 @@ export const Register = () => {
         >
         <h3>Register</h3>
         <input
-            placeholder="First Name"
+            placeholder="first name"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
+            className="input-field"
         />
         <input
-            placeholder="Last Name"
+            placeholder="last name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            className="input-field"
         />
         <input
             placeholder="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            className="input-field"
         />
         <input
             placeholder="password"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            className="input-field"
         />
-        <input type="submit" value="Submit!" />
+        <input type="submit" value="Submit!" className="nav-button"/>
     </form>
   );
 };

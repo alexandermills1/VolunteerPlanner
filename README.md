@@ -21,11 +21,9 @@ To achieve these objectives, the following features and functionalities will be 
 
 ### Level 1 - APIs - Personal Project (2 weeks)
 
-1. **Authentication APIs**: By integrating OAuth 2.0, will ensure secure user login and registration, protecting user data and enhancing trust in the platform. (https://oauth.net/2/)
+1. **Weather APIs**: Integrating OpenWeatherMap API will provide users with real-time weather information for outdoor volunteering events, allowing volunteers to be prepared for any weather conditions. (https://openweathermap.org/api)
 
-2. **Weather APIs**: Integrating OpenWeatherMap API will provide users with real-time weather information for outdoor volunteering events, allowing volunteers to be prepared for any weather conditions. (https://openweathermap.org/api)
-
-3. **Email APIs**: To streamline communication, will incorporate SendGrid API. This will enable the platform to send confirmation and reminder emails to users, keeping them informed and engaged. (https://sendgrid.com/docs/api-reference/)
+2. **Email APIs**: To streamline communication, will incorporate SendGrid API. This will enable the platform to send confirmation and reminder emails to users, keeping them informed and engaged. (https://sendgrid.com/docs/api-reference/)
 
 ## Development Timeline
 
@@ -43,9 +41,9 @@ LEVEL 2 - APIs - Stretch Goals (6-8 weeks)
 
 Geolocation APIs: These APIs will allow users to find nearby charities and events. Google Maps API and OpenStreetMap API are two popular choices.
 
-Payment APIs: If your website requires users to make a donation as part of the reservation, you can use Stripe API or PayPal API for secure transactions.
+User upgrades: Let user show there availabitlity to be randomnly selected.
 
-Charity APIs: Some APIs provide access to databases of verified charitable organizations, such as Charity Navigator API or GlobalGiving API. These can be useful for users to explore and choose organizations to volunteer with.
+Admin: incorporate a admin to create events, check users in for events (accountability), assist with pre-volunteer training. Set up qualifications, times/dates.
 
 Calendar APIs: Integrating a calendar API will help users easily schedule their volunteer time. Some popular options include Google Calendar API and Microsoft Outlook Calendar API.
 
@@ -53,7 +51,6 @@ Calendar APIs: Integrating a calendar API will help users easily schedule their 
 https://docs.google.com/spreadsheets/d/1OvTtEpKbfNiX11MQEsaJE1q3DQ4cisDO9hiDvIu8K-Q/edit#gid=0
 
 https://trello.com/b/ldHyTRBz/volunteer-planner
-
 
 https://www.youtube.com/watch?v=D7zi0gFLmFQ&list=PLu0CiQ7bzwETYmTirvRfbZ9pSwiLFT72S
 15:38 Adding and Committing in Dev Branch

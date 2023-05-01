@@ -44,8 +44,14 @@ Geolocation APIs: These APIs will allow users to find nearby charities and event
 User upgrades: Let user show there availabitlity to be randomnly selected.
 
 Admin: incorporate a admin to create events, check users in for events (accountability), assist with pre-volunteer training. Set up qualifications, times/dates.
+  -QC for outgoing communication
+  -Differnet levels of Admin: 1. Head Admin 2. Coord 3. Assistants
 
 Calendar APIs: Integrating a calendar API will help users easily schedule their volunteer time. Some popular options include Google Calendar API and Microsoft Outlook Calendar API.
+
+Tracker - Make a leaderboard with awards for X amount of hours. Have users hours logged.
+
+? 
 
 
 https://docs.google.com/spreadsheets/d/1OvTtEpKbfNiX11MQEsaJE1q3DQ4cisDO9hiDvIu8K-Q/edit#gid=0

@@ -1,10 +1,10 @@
-/* VP-react/src/components/NavBar.css */
-/* VP-react/src/components/NavBar.css */
+/* VP-react/src/components/Button.css */
 
 .nav-buttons {
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
+    align-items: center;
     margin: 1rem 0;
 }
   
@@ -19,6 +19,8 @@
     color: #fff;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    margin-bottom: 0.5rem;
+
 }
   
 .nav-button:hover {
@@ -27,6 +29,6 @@
 }
   
 .nav-button:not(:last-child) {
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
   

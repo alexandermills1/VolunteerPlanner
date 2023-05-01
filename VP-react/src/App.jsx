@@ -46,6 +46,87 @@
 // export default App;
 
 
+// import { createContext, useEffect, useState } from "react";
+// import "./App.css";
+// import { currUser, logOut } from "./utilities"; 
+// import { getToken } from "./components/CsrfToken";
+// import { Outlet } from "react-router-dom";
+// import { NavBar } from "./components/NavBar";
+
+// export const UserContext = createContext(null);
+
+// function App() {
+//   const [user, setUser] = useState(null);
+
+//   getToken();
+
+//   useEffect(() => {
+//     const getCurrUser = async () => {
+//       setUser(await currUser());
+//     };
+//     getCurrUser();
+//   }, []);
+
+//   // const handleLogout = () => {
+//   //   logOut(setUser);
+//   // };
+
+//   return (
+//     <div className="App">
+//       {/* <button onClick={handleLogout}>LOG OUT</button> */}
+//       <UserContext.Provider value={{ user, setUser }}>
+//         <NavBar />
+//         <h1>HELLO {user && user.name}</h1>
+//         {/* add image here */}
+//         <Outlet />
+//       </UserContext.Provider>
+
+//       <footer></footer>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+// import { createContext, useEffect, useState } from "react";
+// import "./App.css";
+// import { currUser, logOut } from "./utilities"; 
+// import { getToken } from "./components/CsrfToken";
+// import { Outlet } from "react-router-dom";
+// import { NavBar } from "./components/NavBar";
+
+// export const UserContext = createContext(null);
+
+// function App() {
+//   const [user, setUser] = useState(null);
+
+//   getToken();
+
+//   useEffect(() => {
+//     const getCurrUser = async () => {
+//       setUser(await currUser());
+//     };
+//     getCurrUser();
+//   }, []);
+
+//   return (
+//     <div className="App">
+//       <UserContext.Provider value={{ user, setUser }}>
+//         <NavBar />
+//         <h1>HELLO {user && user.name}</h1>
+//         <Outlet />
+//       </UserContext.Provider>
+
+//       <footer></footer>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
 import { createContext, useEffect, useState } from "react";
 import "./App.css";
 import { currUser, logOut } from "./utilities"; 
@@ -67,20 +148,15 @@ function App() {
     getCurrUser();
   }, []);
 
-  // const handleLogout = () => {
-  //   logOut(setUser);
-  // };
-
   return (
     <div className="App">
-      {/* <button onClick={handleLogout}>LOG OUT</button> */}
       <UserContext.Provider value={{ user, setUser }}>
         <NavBar />
-        <h1>HELLO {user && user.name}</h1>
+        {/* <h1>Hello {user && user.name && user.name.toUpperCase()}</h1> */}
         <Outlet />
       </UserContext.Provider>
 
-      <footer>made by - Alex Mills</footer>
+      <footer></footer>
     </div>
   );
 }

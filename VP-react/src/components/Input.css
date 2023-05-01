@@ -1,4 +1,5 @@
 /* VP-react/src/components/Input.css */
+
 .input-field {
     padding: 0.5rem 1rem;
     border: none;
@@ -8,6 +9,8 @@
     background-color: #fff;
     color: #646cff;
     transition: all 0.2s ease-in-out;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
 }
   
 .input-field:focus {

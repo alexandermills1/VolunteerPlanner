@@ -2,7 +2,9 @@
 export default function HomePage() {
     return (
       <div>
-        <h1>Lord's Dinner Scheduler</h1>
+        <h1>Lord's Diner Scheduler</h1>
+        <img src="https://thelordsdiner.org/wp-content/uploads/2019/12/logo-e1581539139778-300x212.png" alt="Lord's Diner logo" />
+
       </div>
     );
   }
